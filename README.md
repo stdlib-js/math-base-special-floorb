@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import floorb from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorb@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-floorb/tags). For example,
+
+```javascript
 import floorb from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorb@v0.2.0-deno/mod.js';
 ```
 
@@ -96,7 +101,7 @@ v = floorb( 5.0, 1, 2 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import pow from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-pow@deno/mod.js';
-import floorb from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorb@v0.2.0-deno/mod.js';
+import floorb from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floorb@deno/mod.js';
 
 var x;
 var n;
